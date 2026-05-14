@@ -378,6 +378,58 @@
   z-index: 20;
 }
 
+/* 右上角花纹 */
+.top-right-ornament {
+
+  position: absolute;
+
+  top: 0.5%;
+  right: 0.5%;
+
+  width: 100%;
+  height: 90px;
+
+  background-image: url("pics/rose3.png");
+
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: contain;
+
+  filter: brightness(0) invert(1);
+
+  opacity: 0.72;
+
+  pointer-events: none;
+
+  z-index: 25;
+}
+
+.bottom-left-ornament {
+
+  position: absolute;
+
+  bottom: 0.5%;
+  left: 0.5%;
+
+  width: 100%;
+  height: 90px;
+
+  background-image: url("pics/rose3.png");
+
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: contain;
+
+transform: rotate(180deg);
+
+  filter: brightness(0) invert(1);
+
+  opacity: 0.72;
+
+  pointer-events: none;
+
+  z-index: 25;
+}
 
 
 </style>
@@ -391,6 +443,10 @@
 
   <!-- PAGE 1 -->
 <div class="page page1" id="page1">
+
+  <div class="top-right-ornament"></div>
+  <div class="bottom-left-ornament"></div>
+
 
   <div class="inside-content">
 
@@ -433,6 +489,10 @@
   <!-- PAGE 2 -->
   <div class="page page2" id="page2">
 
+      <div class="top-right-ornament"></div>
+  <div class="bottom-left-ornament"></div>
+
+
     <div class="inside-content">
       <h1>Ceremony</h1>
 
@@ -457,6 +517,10 @@
   <!-- PAGE 3 -->
   <div class="page page3" id="page3">
 
+      <div class="top-right-ornament"></div>
+  <div class="bottom-left-ornament"></div>
+
+
     <div class="inside-content">
 
       <h1>Dinner </h1>
@@ -479,6 +543,10 @@
 
   <!-- PAGE 4 -->
 <div class="page page4" id="page4">
+
+  <div class="top-right-ornament"></div>
+  <div class="bottom-left-ornament"></div>
+
 
   <div class="inside-content">
 
